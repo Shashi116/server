@@ -1,8 +1,5 @@
 let mongoose = require('mongoose');
 
-
-
-
 const task = mongoose.model('task', {
     task: {
         // type: String,
@@ -17,7 +14,5 @@ const task = mongoose.model('task', {
     },
     
 });
-
-
 
 module.exports = {task}
